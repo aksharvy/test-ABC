@@ -247,4 +247,7 @@ int main(void) {
 
     destroySurface(&ctx);
     termEGL(&ctx);
+
+    printf("Program Ends!!\n");
+    return 0;
 }
